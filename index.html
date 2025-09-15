@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<title>Салон красоты</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
+</head>
+ 
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">Клиника красоты <br>и здоровья в центре Европы</div>
+					</div>
+					<div class="header__location show-desktop">Lorem, ipsuum, 20/12</div>
+					<div class="header__contacts show-desktop">
+						<a href="tel:+80000000" class="phone-main"><img src="img/call.svg" alt="alt">+8 (000) 00-00-00</a>
+						<ul class="list-socials">
+							<li><a href="#" target="_blank"><img src="img/wp.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<div class="btn-menu hidden-desktop">
+						<div class="btn-menu__text">Меню</div>
+						<div class="sandwich">
+							<span class="sw-topper"></span>
+							<span class="sw-bottom"></span>
+							<span class="sw-footer"></span>
+						</div>
+					</div>
+				</div>
+				<ul class="menu show-desktop">
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<div class="menu__dropdown">
+							<ul class="navigation">
+								<li class="navigation__haschild">
+									<a href="#">Коррекция фигуры</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Врачебная косметология</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Лазерное омоложение</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Уходовая косметология</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Лечение выпадения волос</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Мезотерапия и биоревитализация</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Контурная пластика (губ, скул, коррекция носогубных складок)</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Ботокс и диспорт</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Фотоомоложение</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Термлифтинг кожи</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+								<li class="navigation__haschild">
+									<a href="#">Лазерная эпиляция</a>
+									<ul>
+										<li><a href="#">Услуга #1</a></li>
+										<li><a href="#">Услуга #2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">Цены</a></li>
+					<li><a href="#">Специалисты</a></li>
+					<li><a href="#">Проблемы кожи</a></li>
+					<li><a href="#">Сертификаты</a></li>
+					<li><a href="#">О клинике</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="menu-mobile">
+				<div class="menu-mobile__title">Меню сайта</div>
+				<ul class="navigation">
+					<li class="navigation__haschild">
+						<a href="#"><img src="img/ic_nav1.svg" alt="alt">Услуги</a>
+						<ul>
+							<li class="navigation__haschild">
+								<a href="#">Коррекция фигуры</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Врачебная косметология</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Лазерное омоложение</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Уходовая косметология</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Лечение выпадения волос</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Мезотерапия и биоревитализация</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Контурная пластика (губ, скул, коррекция носогубных складок)</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Ботокс и диспорт</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Фотоомоложение</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Термлифтинг кожи</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+							<li class="navigation__haschild">
+								<a href="#">Лазерная эпиляция</a>
+								<ul>
+									<li><a href="#">Услуга #1</a></li>
+									<li><a href="#">Услуга #2</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="img/ic_nav2.svg" alt="alt">Цены</a></li>
+					<li><a href="#"><img src="img/ic_nav3.svg" alt="alt">Специалисты</a></li>
+					<li><a href="#"><img src="img/ic_nav4.svg" alt="alt">Косметологические проблемы</a></li>
+					<li><a href="#"><img src="img/ic_nav5.svg" alt="alt">Сертификаты</a></li>
+					<li><a href="#"><img src="img/ic_nav6.svg" alt="alt">О клинике</a></li>
+					<li><a href="#"><img src="img/ic_nav7.svg" alt="alt">Контакты</a></li>
+				</ul>
+				<div class="menu-mobile__contacts">
+					<a href="tel:+8000000000" class="btn-main">+8 (000) 00-00-00</a>
+					<ul class="list-socials">
+						<li><a href="#" target="_blank"><img src="img/wp.svg" alt="alt"></a></li>
+						<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+					</ul>
+				</div>
+				<div class="menu-mobile__info">
+					<div class="descr-small descr-small_menu">г. Lorem <br>ipsum 20/12</div>
+					<div class="descr-small">9:00-20:00 ежедневно</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+
+			<section class="billbord">
+				<div class="billbord__image">
+					<picture>
+						<source media="(min-width: 1200px)" srcset="img/billbord_deskop.jpg">
+						<img src="img/billbord.jpg" alt="alt">
+					</picture>
+				</div>
+				<div class="billbord__content">
+					<div class="billbord__logo">
+						<img src="img/logo_billbord.svg" alt="alt">
+					</div>
+				</div>
+			</section>
+
+			<section class="services">
+				<div class="container">
+					<div class="banners-wrap">
+						<div class="slider-banners">
+							<div>
+								<a href="#" class="item-banner item-banner_1">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#" class="item-banner item-banner_2">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#" class="item-banner item-banner_3">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#" class="item-banner item-banner_1">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#" class="item-banner item-banner_2">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#" class="item-banner item-banner_3">
+									<span class="item-banner__wrap">Диагностика кожи + консультация </span>
+									<span class="item-banner__image">
+										<img src="img/banner_stiker.png" alt="alt">
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="head-section">
+						<h1 class="title-section">Услуги</h1>
+						<a href="#" class="btn-page">Все услуги <span class="val-btn">31</span><img
+								src="img/arrow_btn.svg" alt="alt"></a>
+					</div>
+					<div class="descr-section">Основные направления клиники</div>
+					<div class="row-services">
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service1.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">Эстетика <br>лица</span>
+							</a>
+						</div>
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service2.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">Инъекционные методики</span>
+							</a>
+						</div>
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service3.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">Аппаратная косметология </span>
+							</a>
+						</div>
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service4.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">Лазерная эпиляция</span>
+							</a>
+						</div>
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service5.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">SPA <br>и массажи</span>
+							</a>
+						</div>
+						<div class="col-service">
+							<a href="#" class="item-service">
+								<span class="item-service__image">
+									<img src="img/service6.jpg" alt="alt">
+								</span>
+								<span class="item-service__title">Превентивная медицина</span>
+							</a>
+						</div>
+					</div>
+					<div class="descr-section descr-section_service">Популярные услуги</div>
+					<div class="slider-services">
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Коррекция морщин (ботулинотерапия)</span>
+								<div class="unit-service__price">от 140 $ / единица</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Биоревитализация </span>
+								<div class="unit-service__price">от 4 500 $</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Контурная пластика губ</span>
+								<div class="unit-service__price">от 14 700 $</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Массаж тела</span>
+								<div class="unit-service__price">от 2 250 $</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Лазерная эпиляция</span>
+								<div class="unit-service__price">от 2 000 $</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">Микроигольчатый RF-лифтинг</span>
+								<div class="unit-service__price">от 24 000 $</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service">
+								<span class="unit-service__title">SMAS-лифтинг</span>
+								<div class="unit-service__price">80 $ / линия</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="unit-service unit-service_all">
+								<span class="unit-service__icon"></span>
+								<span class="unit-service__title">Все услуги</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="specialists">
+				<div class="container">
+					<div class="head-section">
+						<h1 class="title-section">Специалисты</h1>
+						<a href="#" class="btn-page">Все <span class="val-btn">16</span><img src="img/arrow_btn.svg"
+								alt="alt"></a>
+					</div>
+					<div class="specialists__main">
+						<div class="specialists-tags">
+							<a href="#" class="tag-specialist tag-specialist_1">Врачи</a>
+							<a href="#" class="tag-specialist tag-specialist_2">СПА-технологи</a>
+							<a href="#" class="tag-specialist tag-specialist_3">Эстетисты</a>
+							<a href="#" class="tag-specialist tag-specialist_4">Диетологи</a>
+						</div>
+					</div>
+					<a href="#" class="btn-base">Посмотреть специалистов</a>
+				</div>
+			</section>
+
+			<section class="yandex-banners">
+				<div class="container">
+					<div class="yandex-banners__row">
+						<div class="yandex-banners__col">
+							<a href="#" class="banner-yandex banner-yandex_1">
+								<span class="banner-yandex__value">Мы в центре Ульяновска</span>
+								<span class="banner-yandex__title">Красноармейская, 20/12</span>
+								<span class="banner-yandex__image">
+									<img src="img/ic_yandex1.svg" alt="alt">
+								</span>
+							</a>
+						</div>
+						<div class="yandex-banners__col">
+							<a href="#modal-reviews" class="banner-yandex banner-yandex_2 fancybox">
+								<span class="banner-yandex__value">на Яндекс картах</span>
+								<span class="banner-yandex__title">Честные отзывы о нас</span>
+								<span class="banner-yandex__image">
+									<img src="img/ic_yandex2.svg" alt="alt">
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="prices">
+				<div class="container">
+					<div class="head-section">
+						<h1 class="title-section">Цены</h1>
+						<a href="#" class="btn-page">Смотреть все <img src="img/arrow_btn.svg" alt="alt"></a>
+					</div>
+					<div class="prices-block">
+						<div class="prices-block__title">Стимуляция коллагена</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Ботулотоксин Миотокс (1 ед)</td>
+									<td><strong>350 $</strong></td>
+								</tr>
+								<tr>
+									<td>Ботулотоксин Релатокс (1 ед)</td>
+									<td><strong>350 $</strong></td>
+								</tr>
+								<tr>
+									<td>Ботулотоксин Диспорт (1 ед)</td>
+									<td><strong>140 $</strong></td>
+								</tr>
+								<tr>
+									<td>Ботулотоксин Диспорт Лечение гипергидроза (1 ед)</td>
+									<td><strong>110 $</strong></td>
+								</tr>
+								<tr>
+									<td>Ботулотоксин Миотокс (1 ед)Ботулотоксин Ксеомин (1 ед)</td>
+									<td><strong>380 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">Биоревитализация</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Биоревитализация e.p.t.q. Hydro Plus (3ml)</td>
+									<td><strong>15 000 $</strong></td>
+								</tr>
+								<tr>
+									<td>Биоревитализация Novacutan SBio (2мл)</td>
+									<td><strong>15 000 $</strong></td>
+								</tr>
+								<tr>
+									<td>Биорепарация PLINEST (2 мл)</td>
+									<td><strong>15 000 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">Контурная пластика</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Филлер e.p.t.q. с лидокаином Эпитик (1 мл.)</td>
+									<td><strong>2 000 $</strong></td>
+								</tr>
+								<tr>
+									<td>Филлер Belotero Lips Shape (0,6мл)</td>
+									<td><strong>3 500 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">Массаж авторский</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Массаж лечебный медицинский, лимфодренажный, спортивный, антицеллюлитный,
+										моделирующий (60 мин)</td>
+									<td><strong>3 600 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">Микроигольчатый RF-лифтинг</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Микроигольчатый RF-лифтинг Morpheus8 (лицо )</td>
+									<td><strong>40 000 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">Лазерная Эпиляция</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>Эпиляция Soprano Пакет Ноги полн + Гл. бикини + Подмышки</td>
+									<td><strong>10 700 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="prices-block__title">СМАС</div>
+						<table>
+							<tbody>
+								<tr>
+									<td>СМАС (SMAS) UTIMS (линия)</td>
+									<td><strong>5 000 $</strong></td>
+								</tr>
+								<tr>
+									<td>HydraFacial (базовая процедура)</td>
+									<td><strong>5 000 $</strong></td>
+								</tr>
+								<tr>
+									<td>Чистка лица Комплексная</td>
+									<td><strong>5 000 $</strong></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<a href="#" class="btn-base">Смотреть все цены</a>
+				</div>
+			</section>
+
+			<section class="sertificat">
+				<div class="container">
+					<a href="#" class="sertificat__main">
+						<span class="sertificat__title">Подарочные сертификаты</span>
+						<span class="sertificat__descr">Подарите прикосновение красоты. Это неожиданно и приятно</span>
+						<span class="sertificat__image">
+							<img src="img/sertificat.png" alt="alt">
+						</span>
+					</a>
+				</div>
+			</section>
+
+			<section class="program">
+				<div class="container">
+					<div class="head-section">
+						<h2 class="title-section">Программа привелегий</h2>
+					</div>
+					<div class="row-program">
+						<div class="col-program">
+							<div class="block-program">
+								<div class="title-middle">Новые бонусы — <br>драгоценные преимущества!</div>
+								<div class="descr-section">Представляем три уровня накоплений:</div>
+								<div class="item-privilege item-privilege_1">
+									<div class="item-privilege__title">Сапфир 3%</div>
+									<div class="item-privilege__value">1 000 $ — 99 999 $</div>
+									<div class="item-privilege__image">
+										<img src="img/privilege1.png" alt="alt">
+									</div>
+								</div>
+								<div class="item-privilege item-privilege_2">
+									<div class="item-privilege__title">Изумруд 5%</div>
+									<div class="item-privilege__value">100 000 $ — 499 999 $</div>
+									<div class="item-privilege__image">
+										<img src="img/privilege2.png" alt="alt">
+									</div>
+								</div>
+								<div class="item-privilege item-privilege_3">
+									<div class="item-privilege__title">Бриллиант 7%</div>
+									<div class="item-privilege__value">от 500 000 $</div>
+									<div class="item-privilege__image">
+										<img src="img/privilege3.png" alt="alt">
+									</div>
+								</div>
+								<a href="#" class="link-page">Подробнее о привелегиях</a>
+							</div>
+						</div>
+						<div class="col-program">
+							<div class="block-program block-program_sale">
+								<div class="title-middle">–10% ко дню рождения</div>
+								<div class="descr-section">На процедуры <br class="show-desktop">и уходовую косметику. <br class="show-desktop">7
+									дней до и после вашего дня рождения</div>
+								<div class="descr-small">скидка не суммируется с другими акциями и предложениями</div>
+								<div class="block-program__image">
+									<picture>
+										<source media="(min-width: 1200px)" srcset="img/program_sale_desktop1.png">
+										<img src="img/program_sale1.png" alt="alt">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="about">
+				<div class="container">
+					<div class="head-section">
+						<h2 class="title-section">О клинике</h2>
+					</div>
+					<div class="slider-wrapper">
+						<div class="slider-about">
+							<div>
+								<div class="slider-about__image">
+									<img src="img/slide_about1.jpg" alt="alt">
+								</div>
+							</div>
+							<div>
+								<div class="slider-about__image">
+									<img src="img/slide_about1.jpg" alt="alt">
+								</div>
+							</div>
+							<div>
+								<div class="slider-about__image">
+									<img src="img/slide_about1.jpg" alt="alt">
+								</div>
+							</div>
+							<div>
+								<div class="slider-about__image">
+									<img src="img/slide_about1.jpg" alt="alt">
+								</div>
+							</div>
+						</div>
+						<div class="slider-dots-wrap"></div>
+					</div>
+					<h3 class="title-middle">Barcelona Esthetique — клиника, где красота встречается со здоровьем.</h3>
+					<div class="about__text">
+						<p>Мы верим: истинная красота рождается из гармонии тела и души. Именно поэтому в нашей клинике
+							эстетической медицины сочетаются передовые медицинские технологии и внимательный, заботливый
+							подход к каждому пациенту…</p>
+						<div class="about__hidden">
+							<p>Мы верим: истинная красота рождается из гармонии тела и души. Именно поэтому в нашей
+								клинике эстетической медицины сочетаются передовые медицинские технологии и
+								внимательный, заботливый подход к каждому пациенту</p>
+						</div>
+					</div>
+					<a href="#" class="btn-base btn-base_about">Читать полностью</a>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<a href="#" class="footer__logo">
+						<img src="img/logo_footer.svg" alt="alt">
+					</a>
+					<div class="footer__location">Lorem ipsum deluser, 20/12 <br>Ежедневно с 09:00 до 20:00.
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:+80000000" class="footer__phone">+8 (000) 00-00-00</a>
+						<a href="#modal-callback" class="btn-page btn-page_main fancybox">заказать звонок</a>
+					</div>
+				</div>
+				<div class="row-footer">
+					<div class="col-footer">
+						<ul class="footer__nav">
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Оферта</a></li>
+							<li><a href="#">Лицензия</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+						</ul>
+					</div>
+					<div class="col-footer">
+						<ul class="footer__nav">
+							<li><a href="#">SMAS-Лифтинг</a></li>
+							<li><a href="#">SPA-процедуры</a></li>
+							<li><a href="#">Аппаратная косметология</a></li>
+							<li><a href="#">Ботокс и диспорт</a></li>
+							<li><a href="#">Косметологические услуги</a></li>
+							<li><a href="#">Коррекция фигуры</a></li>
+						</ul>
+					</div>
+					<div class="col-footer">
+						<ul class="footer__nav">
+							<li><a href="#">Лазерная эпиляция</a></li>
+							<li><a href="#">Лазерное омоложение</a></li>
+							<li><a href="#">Лечение выпадения волос</a></li>
+							<li><a href="#">Мезотерапия для лица</a></li>
+							<li><a href="#">Уходовая косметология</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__buttons">
+					<a href="#modal-add-review" class="btn-base fancybox">Оставить отзыв</a>
+					<div class="socials-buttons">
+						<a href="#" class="btn-base" target="_blank"><img src="img/ic_tg.svg" alt="alt"><span>Канал в <span class="hidden-desktop">Tg</span><span class="show-desktop">Telegram</span></span></a>
+					</div>
+				</div>
+				<div class="footer__info">
+					<div class="descr-small">Лицензия № 00054-45334-73/4554 от 14.07.2020г.</div>
+					<div class="footer__descr">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, НЕОБХОДИМО ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ
+					</div>
+					<div class="descr-small">© 2025 Косметологическая клиника</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="popup-contact">
+			<div class="popup-contact__wrapper">
+				<div class="popup-contact__overlay"></div>
+				<div class="popup-contact__content">
+					<div class="popup-contact__logo">
+						<img src="img/logo_billbord.svg" alt="alt">
+					</div>
+					<div class="popup-contact__info">
+						<div class="popup-contact__location">г. Loream <br>ipsum 20/12</div>
+						<div class="descr-small">9:00-20:00 ежедневно</div>
+					</div>
+					<div class="popup-contact__buttons">
+						<a href="tel:+78422424864" class="btn-contact btn-contact_phone">
+							<span class="btn-contact__icon">
+								<img src="img/btn_contact1.svg" alt="alt">
+							</span>
+							<span class="btn-contact__content">
+								<span class="title-middle">+8 (000) 00-00-00</span>
+								<span class="descr-small hidden-desktop">Позвонить по телефону</span>
+								<span class="descr-small show-desktop">номер телефона</span>
+							</span>
+						</a>
+						<a href="#" target="_blank" class="btn-contact">
+							<span class="btn-contact__icon">
+								<img src="img/btn_contact2.svg" alt="alt">
+							</span>
+							<span class="btn-contact__content">
+								<span class="title-middle">Telegram</span>
+								<span class="descr-small">Написать администратору</span>
+							</span>
+						</a>
+						<a href="#" target="_blank" class="btn-contact">
+							<span class="btn-contact__icon">
+								<img src="img/btn_contact3.svg" alt="alt">
+							</span>
+							<span class="btn-contact__content">
+								<span class="title-middle">WhatsApp</span>
+								<span class="descr-small">Написать администратору</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="widget-contact">
+			<div class="widget-contact__main">
+				<div class="widget-contact__icon"></div>
+				<div class="widget-contact__btn">Онлайн-запись</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="modal-reviews" class="modal">
+		<div class="modal__wrap">
+			<div class="modal__head">
+				<div class="title-section">Отзывы о клинике</div>
+			</div>
+			<div class="review-iframe" style="width:100%;height:85vh;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/173452831614?comments"></iframe><a href="https://yandex.com/maps/org/barselona_estetik/173452831614/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Барселона Эстетик на карте Ульяновска — Яндекс Карты</a></div>
+		</div>
+	</div>
+
+	<div id="modal-add-review" class="modal">
+		<div class="modal__wrap">
+			<div class="modal__head">
+				<div class="title-section">Отзыв о нас</div>
+				<div class="descr-modal">Поделитесь впечателениями и вашем опыте в клинике Barcelona Esthetique</div>
+			</div>
+			<form>
+				<div class="modal__content">
+					<div class="item-form">
+						<div class="item-form__title">Как вас зовут *</div>
+						<input type="text" required>
+					</div>
+					<div class="item-form">
+						<div class="item-form__title">Номер телефона *</div>
+						<input type="tel" placeholder="+7 000 000-00-00" class="input-phone" inputmode="numeric" required>
+					</div>
+					<div class="item-form">
+						<div class="item-form__title">Электронная почта</div>
+						<input type="email" inputmode="email">
+					</div>
+					<div class="item-form">
+						<div class="item-form__title">Ваш отзыв *</div>
+						<textarea required maxlength="400"></textarea>
+						<div class="item-form__amount"></div>
+					</div>
+				</div>
+				<div class="modal__bottom">
+					<button class="btn-main" type="submit">Отправить отзыв</button>
+					<div class="agree-form">Нажимая «Отправить отзыв», вы соглашаетесь с <a href="#" target="_blank">условиями</a></div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-success-review" class="modal">
+		<div class="modal__wrap">
+			<div class="content-result-modal">
+				<div class="icon-result-modal">
+					<img src="img/ic_success_modal.svg" alt="alt">
+				</div>
+				<div class="title-result-modal">Мы получили ваш отзыв</div>
+				<div class="descr-result-modal">Спасибо за вашу обратную связь. В ближайшее время мы ознакомимся с вашим отзывом.</div>
+				<a href="#" class="btn-base close-fancybox">Завершить</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-error-review" class="modal">
+		<div class="modal__wrap">
+			<div class="content-result-modal">
+				<div class="icon-result-modal">
+					<img src="img/ic_error_modal.svg" alt="alt">
+				</div>
+				<div class="title-result-modal">Не удалось отправить отзыв</div>
+				<div class="descr-result-modal">Произошла какая-то техническая ошибка. Уже разбираемся. Попробуйте еще раз или вернитесь немного попозже.</div>
+				<a href="#modal-add-review" class="btn-base fancybox">Попробовать еще раз</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-callback" class="modal">
+		<div class="modal__wrap">
+			<div class="modal__head">
+				<div class="title-section">Позвоним вам</div>
+				<div class="descr-modal">Оставьте заявку, и мы свяжемся с вами в ближайшее время</div>
+			</div>
+			<form>
+				<div class="modal__content">
+					<div class="item-form">
+						<div class="item-form__title">Как вас зовут *</div>
+						<input type="text" required>
+					</div>
+					<div class="item-form">
+						<div class="item-form__title">Номер телефона *</div>
+						<input type="tel" placeholder="+7 000 000-00-00" class="input-phone" inputmode="numeric" required>
+					</div>
+				</div>
+				<div class="modal__bottom">
+					<button class="btn-main" type="submit">Оставить заявку</button>
+					<div class="agree-form">Нажимая «Отправить отзыв», вы соглашаетесь с <a href="#" target="_blank">условиями</a></div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-success-callback" class="modal">
+		<div class="modal__wrap">
+			<div class="content-result-modal">
+				<div class="icon-result-modal">
+					<img src="img/ic_success_modal.svg" alt="alt">
+				</div>
+				<div class="title-result-modal">Мы получили вашу заявку</div>
+				<div class="descr-result-modal">Наш менеджер в ближайшее время свяжется с вами по указанному номеру телефона</div>
+				<a href="#" class="btn-base close-fancybox">Завершить</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-error-callback" class="modal">
+		<div class="modal__wrap">
+			<div class="content-result-modal">
+				<div class="icon-result-modal">
+					<img src="img/ic_error_modal.svg" alt="alt">
+				</div>
+				<div class="title-result-modal">Не удалось отправить заявку</div>
+				<div class="descr-result-modal">Произошла какая-то техническая ошибка. Уже разбираемся. Попробуйте еще раз или вернитесь немного попозже.</div>
+				<a href="#modal-callback" class="btn-base fancybox">Попробовать еще раз</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-loading" class="modal">
+		<div class="modal__wrap modal__wrap_loading">
+			<div class="content-result-modal">
+				<div class="icon-result-modal">
+					<img src="img/loading.svg" alt="alt">
+				</div>
+				<div class="title-result-modal">Загрузка</div>
+				<div class="descr-result-modal">Скоро все появится</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+	<script src="js/common.js?ver=1.3"></script>
+</body>
+
+</html>
